@@ -1,7 +1,7 @@
-@font-face {
+f@font-face {
 font-family: "MOLarabicRegular";
 font-style: normal;
-src: url(wepsitfont/MOLarabicRegular.ttf) format("ttf");
+src: local('wepsitfont') url(MOLarabicRegular.ttf) format("truetype");
 font-display: auto;
 }
 
@@ -27,4 +27,3 @@ font-weight: 700;
 h2 {
 font-weight: 400;
 }
-
